@@ -1,0 +1,70 @@
+.aboutme {
+    background: rgba(64, 64, 64, 0.6);
+  }
+  
+  .aboutme .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+  }
+  
+  .aboutme .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+  
+  .aboutme .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .projects {
+    background: rgba(64, 64, 64, 0.6);
+  }
+  
+  .aboutme .carousel-inner .carousel-item img{
+    height: 400px;
+    max-height: 400px;
+    width: auto;
+  }
+  
+  .projects .carousel-inner .carousel-item img{
+    height: 600px;
+    max-height: 600px;
+    width: auto;
+  }
+  
+  .carousel-caption {
+    font-family: 'Jomolhari', serif;
+  }
+  
+  .spacing {
+    background-color: transparent;
+  }
+  
+  body {
+    font-family: 'IM Fell DW Pica SC', serif;
+    height: 100%;
+    margin:0px;
+    background-color:#999999;
+    background-image: url("assets/backgroundimage_.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .carousel-caption {
+    background-color: black;
+    opacity: 1;
+  }
+  
+  .row {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
